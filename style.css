@@ -1,0 +1,379 @@
+/* Puppy Cards */
+
+.puppies {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff8f0;
+}
+
+.puppies h2 {
+  font-size: 32px;
+  color: #5a3218;
+  margin-bottom: 30px;
+}
+
+.puppy-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.puppy-card {
+  background: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.puppy-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.puppy-card h3 {
+  color: #5a3218;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b36b00;
+}
+
+.puppy-card button {
+  background: #8b4513;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+/* Why Choose Us */
+
+.why-us {
+  padding: 60px 20px;
+  background: #f9f7f3;
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 32px;
+  color: #5a3218;
+  margin-bottom: 30px;
+}
+
+.why-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.why-card {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.why-card h3 {
+  color: #8b4513;
+  margin-bottom: 15px;
+}
+
+.why-card p {
+  color: #555;
+  line-height: 1.6;
+}
+/* Reviews */
+
+.reviews {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 32px;
+  color: #5a3218;
+  margin-bottom: 30px;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.review-card {
+  width: 300px;
+  background: #fff8f0;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.review-card p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.review-card h4 {
+  color: #8b4513;
+}
+/* Contact Section */
+
+.contact {
+  padding: 60px 20px;
+  background: #f8f5f0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: #5a3218;
+  margin-bottom: 15px;
+}
+
+.contact-buttons {
+  margin: 25px 0;
+}
+
+.contact-buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background: #8b4513;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.contact-buttons .btn:hover {
+  background: #6f3410;
+}/* Payment Section */
+
+.payment {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.payment h2 {
+  color: #5a3218;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.payment p {
+  color: #555;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.payment-icons {
+  font-size: 28px;
+  margin: 25px 0;
+}
+
+.payment .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.payment .btn:hover {
+  opacity: 0.9;
+}/* FAQ */
+
+.faq {
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.faq h2 {
+  text-align: center;
+  color: #5a3218;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  background: white;
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.faq-item h3 {
+  color: #8b4513;
+}
+
+.faq-item p {
+  color: #555;
+}/* Header */
+
+header {
+  background: #4a2c1a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 38px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd27d;
+}/* Hero Section */
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff8f0;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero h2 {
+  color: #5a3218;
+  font-size: 34px;
+  margin-top: 25px;
+}
+
+.hero p {
+  color: #555;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b4513;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* About Section */
+
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.about h2 {
+  color: #5a3218;
+  font-size: 32px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 15px auto;
+  color: #555;
+  line-height: 1.7;
+}
+
+
+/* Delivery Section */
+
+.delivery {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9f7f3;
+}
+
+.delivery-icon {
+  font-size: 50px;
+}
+
+.delivery h2 {
+  color: #5a3218;
+}
+
+
+/* Footer */
+
+footer {
+  background: #4a2c1a;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer h3 {
+  font-size: 28px;
+}
+
+footer p {
+  margin: 10px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px;
+  }
+
+  .hero img {
+    height: 250px;
+  }
+
+  .puppy-card,
+  .why-card,
+  .review-card {
+    width: 90%;
+  }
+
+}
